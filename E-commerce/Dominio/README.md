@@ -1,6 +1,6 @@
-# Proyecto Carrito de Compras (En Desarrollo)
+# Proyecto E-commerce (En Desarrollo)
 
-## 📌 Descripción General
+##  Descripción General
 
 Este proyecto corresponde a la implementación de un **sistema básico de carrito de compras**, orientado a un contexto de comercio electrónico. El diseño sigue principios de **programación orientada a objetos** y algunos conceptos de **Domain-Driven Design (DDD)**, como entidades, value objects y aggregate roots.
 
@@ -22,7 +22,7 @@ Actualmente, el proyecto se encuentra en **fase de implementación**, por lo que
 
 ## 📦 Módulos y Estado de Avance
 
-### 1. `carrito.py`
+### `carrito.py`
 
 **Estado:** 🟡 Parcialmente implementado
 
@@ -45,7 +45,7 @@ Define la entidad **Carrito**, que representa el carrito de compras del usuario.
 
 ---
 
-### 2. `carrito_detalle.py`
+### `carrito_detalle.py`
 
 **Estado:** 🟡 Parcialmente implementado
 
@@ -70,7 +70,7 @@ Representa el detalle de un producto dentro del carrito.
 
 ---
 
-### 3. `usuario.py`
+###  `usuario.py`
 
 **Estado:** 🟡 Parcialmente implementado
 
@@ -95,7 +95,7 @@ Define la entidad **Usuario** y su gestor.
 
 ---
 
-### 4. `direccion.py`
+### `direccion.py`
 
 **Estado:** 🟢 Implementación base completa
 
@@ -118,7 +118,7 @@ Define el **Value Object Dirección**, separado del usuario por composición.
 
 ---
 
-### 5. `envio.py`
+### `envio.py`
 
 **Estado:** 🔴 En desarrollo
 
@@ -136,7 +136,7 @@ Modela el concepto de **envío** asociado a una dirección y usuario.
 
 ---
 
-## 🧠 Conceptos Aplicados
+## Conceptos Aplicados
 
 * Programación Orientada a Objetos (POO)
 * Domain-Driven Design (DDD)
