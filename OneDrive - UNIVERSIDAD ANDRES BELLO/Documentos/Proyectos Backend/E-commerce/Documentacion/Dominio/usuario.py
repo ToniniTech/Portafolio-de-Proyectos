@@ -16,7 +16,7 @@ class Usuario():
 
         if self.direccion == nueva_direccion:
             raise Exception('Los valores deben ser diferentes a los actuales')
-
+        
         self.direccion = nueva_direccion
 
 class gestorUsuarios:
